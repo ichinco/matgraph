@@ -12,7 +12,9 @@ use
 We are assuming that you have a figure with potentially many subplots, and that the figure you want to work with is the one that's "current", ie the one returned by the gcf command. You can change which figure is current by clicking on it before running the script. Axes in the plot are numbered across first and then down, as so:
 
 | 1 | 2 | 3 |
+
 | 4 | 5 | 6 |
+
 | 7 | 8 | 9 |
 
 Typically the functions take the axis number as their first argument. 
